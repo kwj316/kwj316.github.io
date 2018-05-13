@@ -1,0 +1,52 @@
+html {
+	background-image: url("Images/Ocean.jpg");
+	background-position: center;
+	background-size: cover;
+	display: inline-block;
+	height: 100%;
+}
+
+#content{
+	display: inline-block;
+	text-align: left;
+}
+
+#finishLine {
+	position: absolute;
+	right: 50px;
+	top: 0;
+	z-index: -1;
+	height: 100%;
+}
+
+
+#stopLight{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#winnerDiv{
+	display: none;
+	margin: auto;
+	width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    z-index: 1;
+
+}
+
+#winnerImg{
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#winner{
+	font-size: 32px;
+	color: white;
+}
+
+
+
